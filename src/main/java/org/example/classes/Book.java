@@ -2,9 +2,13 @@ package org.example.classes;
 
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
+import lombok.AllArgsConstructor;
+import lombok.Data;
 
 import java.util.*;
 
+@Data
+@AllArgsConstructor
 public class Book {
 
     private ArrayList<Library> libraries;
